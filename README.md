@@ -63,6 +63,22 @@ I do not encourage or endorse piracy by making this project public. The code is 
 
 
 
+Running
+-------
+
+```bash
+# Optional: Create a virtual environment.
+conda install virtualenv
+
+virtualenv -p python2.7 env
+source env/bin/activate
+
+# Install the dependencies
+pip install -r req.txt
+
+# Launch Jupyter
+jupyter-notebook .
+```
 
 
 
